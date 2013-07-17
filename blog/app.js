@@ -1,1 +1,1 @@
-var http = require('http');http.createServer(function(req,res){    res.writeHead(200,{'content-type':'text/html','charset':'utf-8'});    res.write('<h3>我叫王和尚</h3>');    res.end('hello world');}).listen(3000)console.log('服务器启动成功，端口号是3000')
+var http = require('http');http.createServer(function(req,res){    res.writeHead(200,{'content-type':'text/html'});    res.write('<h3>我叫王和尚</h3>');    res.end('hello world');}).listen(3000)console.log('服务器启动成功，端口号是3000')
