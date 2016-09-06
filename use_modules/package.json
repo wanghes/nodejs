@@ -1,0 +1,22 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "\"主要用来测试nodejs npm安装的模块的用法\"",
+  "main": "app.js",
+  "dependencies": {
+    "archiver": "^0.15.0",
+    "image-type": "^2.0.2"
+  },
+  "devDependencies": {
+    "read-chunk": "^1.0.1"
+  },
+  "scripts": {
+    "test": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "wang_hes",
+  "license": "MIT"
+}
